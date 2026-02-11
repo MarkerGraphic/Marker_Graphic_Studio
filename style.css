@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "swappy";
+    src: url("Swappy-FontVF.woff") format("woff");
+}
+
+@font-face {
+    font-family: "cormorant-italic";
+    src: url(Cormorant-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "cormorant";
+    src: url(Cormorant-VariableFont_wght.ttf);
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    /* font-family: "cormorant"; */
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+    font-family: "cormorant-italic";
+}
+
+p a:hover {
+    color: white;
+    text-decoration: underline;
+    font-family: "cormorant-italic";
+}
+
+p {
+    font-family: "cormorant";
+    max-width: 300px;
+    font-size: 1em;
+    margin: 5vh;
+}
+
+.videoContainer{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    position: absolute;
+    width: 90vw;
+    height: auto;
+    navigation: none;
+}
+
+li {
+    font-family: "cormorant";
+    font-size: 1em;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* NAVIGATION */
+#concept {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    margin: 0;
+    height: 5vh;
+    padding: .01em;
+
+}
+
+#about {
+    position: sticky;
+    top: 5vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    margin: 0;
+    height: 5vh;
+    padding: .01em;
+
+}
+
+#interactive {
+    position: sticky;
+    top: 10vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    margin: 0;
+    height: 5vh;
+    padding: .01em;
+
+}
+
+/* HEADER */
+header {
+    position: relative;
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    z-index: 500;
+    row-gap: 10vh;
+    
+}
+
+h1 {
+    font-family: "swappy", sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    font-family: "cormorant-italic";
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    font-family: "cormorant-italic";
+    margin: 0;
+}
+
+/* Header navigation buttons styled like the h2 */
+.nav-buttons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0;
+}
+
+.nav-btn{
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: "cormorant-italic";
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    padding: 0.2em 0.4em;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    text-decoration: underline;
+}
+
+@keyframes flicker {
+  50% {opacity: 0;}
+}
+
+.arrowDown {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.arrowDown svg{
+    rotate: 90deg;
+    position: absolute;
+    bottom: 20px;
+    animation: flicker 3s infinite ease-in-out;
+}
+
+.arrowUp {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+}
+
+.arrowUp svg{
+    position: relative;
+    rotate: 270deg;
+    bottom: 0px;
+    animation: flicker 3s infinite ease-in-out;
+}
+
+/* MAIN */
+main {
+    background-color: transparent;
+    color: white;  
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#aboutSection img{
+    max-width: 300px;
+}
+
+main section img{
+    width: 100vw;
+    opacity: 60%;
+    transition: .1s ease-out;
+    cursor: pointer;
+}
+
+main section img:hover{
+    width: 100vw;
+    opacity: 100%;
+    transition: .1s ease-in;
+}
+
+#contact{
+        row-gap: 1vh;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+/* BUTTON */
+/* From Uiverse.io by alexmaracinaru */ 
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+button:hover {
+ border-radius: 10px;
+ transition:  0.3s ease-in-out;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
