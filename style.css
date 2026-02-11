@@ -46,6 +46,19 @@ p {
     margin: 5vh;
 }
 
+.caption {
+    font-family: "cormorant";
+    font-size: .5em;
+    margin: 0.5vh;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+  
+
+}
+
 .videoContainer{
     position: absolute;
     width: 100vw;
