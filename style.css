@@ -110,7 +110,7 @@ li {
 
 #interactive {
     position: sticky;
-    top: 10vh;
+    top: 9.9vh;
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(10px);
     z-index: 100;
