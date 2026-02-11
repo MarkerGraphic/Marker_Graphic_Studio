@@ -14,7 +14,8 @@
 }
 
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -55,21 +56,21 @@ p {
     display: flex;
     justify-content: left;
     width: 100vw;
-  
+
 
 }
 
-.videoContainer{
+.videoContainer {
     position: absolute;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    display: flex;  
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-video{
+video {
     position: absolute;
     width: 90vw;
     height: auto;
@@ -104,9 +105,10 @@ li {
     z-index: 100;
     margin: 0;
     height: 5vh;
-    padding: .01.5em;
+    padding: 1.5em;
 
 }
+
 
 #interactive {
     position: sticky;
@@ -132,7 +134,7 @@ header {
     height: 100vh;
     z-index: 500;
     row-gap: 10vh;
-    
+
 }
 
 h1 {
@@ -163,13 +165,13 @@ h3 {
 }
 
 /* Header navigation buttons styled like the h2 */
-.nav-buttons{
+.nav-buttons {
     display: flex;
     gap: 1rem;
     margin-top: 0;
 }
 
-.nav-btn{
+.nav-btn {
     background: transparent;
     border: none;
     color: white;
@@ -181,12 +183,14 @@ h3 {
     cursor: pointer;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
     text-decoration: underline;
 }
 
 @keyframes flicker {
-  50% {opacity: 0;}
+    50% {
+        opacity: 0;
+    }
 }
 
 .arrowDown {
@@ -195,7 +199,7 @@ h3 {
     justify-content: center;
 }
 
-.arrowDown svg{
+.arrowDown svg {
     rotate: 90deg;
     position: absolute;
     bottom: 20px;
@@ -209,7 +213,7 @@ h3 {
     margin: 10vh;
 }
 
-.arrowUp svg{
+.arrowUp svg {
     position: relative;
     rotate: 270deg;
     bottom: 0px;
@@ -219,35 +223,35 @@ h3 {
 /* MAIN */
 main {
     background-color: transparent;
-    color: white;  
+    color: white;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
 }
 
-#aboutSection img{
+#aboutSection img {
     max-width: 400px;
 }
 
-main section img{
+main section img {
     width: 100vw;
     opacity: 60%;
     transition: .1s ease-out;
     cursor: pointer;
 }
 
-main section img:hover{
+main section img:hover {
     width: 100vw;
     opacity: 100%;
     transition: .1s ease-in;
 }
 
-#contact{
-        row-gap: 1vh;
+#contact {
+    row-gap: 1vh;
 }
 
 /* FOOTER */
@@ -261,35 +265,35 @@ footer {
 }
 
 /* BUTTON */
-/* From Uiverse.io by alexmaracinaru */ 
+/* From Uiverse.io by alexmaracinaru */
 
 button {
-  background-color: transparent;
-  cursor: pointer;
-  transition: all 0.2s;
-  padding: 10px 20px;
-  border-radius: 50px;
-  border: 1px solid white;
-  display: flex;
-  align-items: center;
-  font-size: 1.5em;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
 }
 
 button:hover {
- border-radius: 10px;
- transition:  0.3s ease-in-out;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
 }
 
-button > svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform 0.3s ease-in-out;
+button>svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
 button:hover svg {
-  transform: translateX(5px);
+    transform: translateX(5px);
 }
 
 button:active {
-  transform: scale(0.95);
+    transform: scale(0.95);
 }
