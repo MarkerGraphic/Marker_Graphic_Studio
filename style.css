@@ -48,7 +48,7 @@ p {
 
 .caption {
     font-family: "cormorant";
-    font-size: .5em;
+    font-size: .8em;
     margin: 0.5vh;
     color: white;
     background-color: transparent;
@@ -257,7 +257,7 @@ footer {
     background-color: transparent;
     color: white;
     text-align: center;
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 
 /* BUTTON */
