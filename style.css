@@ -41,7 +41,7 @@ p a:hover {
 
 p {
     font-family: "cormorant";
-    max-width: 300px;
+    max-width: 400px;
     font-size: 1.5em;
     margin: 5vh;
 }
@@ -79,7 +79,7 @@ li {
     z-index: 100;
     margin: 0;
     height: 5vh;
-    padding: .01.5em;
+    padding: .1.5em;
 
 }
 
@@ -217,7 +217,7 @@ section{
 }
 
 #aboutSection img{
-    max-width: 300px;
+    max-width: 400px;
 }
 
 main section img{
