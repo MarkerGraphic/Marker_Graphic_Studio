@@ -50,7 +50,7 @@ p {
     font-family: "cormorant";
     font-size: .8em;
     margin: 0.5vh;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     background-color: transparent;
     display: flex;
     justify-content: left;
