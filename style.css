@@ -42,7 +42,7 @@ p a:hover {
 p {
     font-family: "cormorant";
     max-width: 300px;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 5vh;
 }
 
@@ -65,7 +65,7 @@ video{
 
 li {
     font-family: "cormorant";
-    font-size: 2em;
+    font-size: 1.5em;
     list-style: none;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -79,7 +79,7 @@ li {
     z-index: 100;
     margin: 0;
     height: 5vh;
-    padding: .02em;
+    padding: .01.5em;
 
 }
 
@@ -91,7 +91,7 @@ li {
     z-index: 100;
     margin: 0;
     height: 5vh;
-    padding: .02em;
+    padding: .01.5em;
 
 }
 
@@ -103,7 +103,7 @@ li {
     z-index: 100;
     margin: 0;
     height: 5vh;
-    padding: .02em;
+    padding: .01.5em;
 
 }
 
@@ -130,7 +130,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 100;
     text-align: center;
     font-family: "cormorant-italic";
@@ -142,7 +142,7 @@ h2:hover {
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 100;
     text-align: center;
     font-family: "cormorant-italic";
@@ -161,10 +161,10 @@ h3 {
     border: none;
     color: white;
     font-family: "cormorant-italic";
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 100;
     text-align: center;
-    padding: 0.2em 0.4em;
+    padding: 0.1.5em 0.4em;
     cursor: pointer;
 }
 
